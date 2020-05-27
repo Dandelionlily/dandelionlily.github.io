@@ -3,6 +3,12 @@
   <head>
     <title>Carol's Costumes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <nav>
@@ -14,26 +20,34 @@
   <body>
     <h1>Costumes</h1>
 
-    <h3>Dalek from <i>Dr Who</i></h3>
-    <img
-      src="images/costumes/dalek.jpg"
-      alt="woman in a gold ballgown covered with half-spheres who is holding a plunger and whisk"
-    />
-
-    <h3>Phryne Fisher from <i>Miss Fisher's Murder Mysteries</i></h3>
-    <img
-      src="images/costumes/fisher.jpg"
-      alt="woman with black bob in gold flapper dress"
-    />
-
-    <h3>Carol Danvers a.k.a. Captain Marvel</h3>
-    <img
-      src="images/costumes/captain_marvel.jpg"
-      alt="woman in a superhero costume with a gray cat rubbing against her shins"
-    />
-    <img
-      src="images/costumes/sweatshirt.jpg"
-      alt="blue sweatshirt with red and yellow decorations laid on top"
-    />
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h3>Dalek from <i>Dr Who</i></h3>
+          <img
+            src="images/costumes/dalek.jpg"
+            alt="woman in a gold ballgown covered with half-spheres who is holding a plunger and whisk"
+          />
+        </div>
+        <div class="col-3">
+          <h3>Phryne Fisher from <i>Miss Fisher's Murder Mysteries</i></h3>
+          <img
+            src="images/costumes/fisher.jpg"
+            alt="woman with black bob in gold flapper dress"
+          />
+        </div>
+        <div class="col-6">
+          <h3>Carol Danvers a.k.a. Captain Marvel</h3>
+          <img
+            src="images/costumes/captain_marvel.jpg"
+            alt="woman in a superhero costume with a gray cat rubbing against her shins"
+          />
+          <img
+            src="images/costumes/sweatshirt.jpg"
+            alt="blue sweatshirt with red and yellow decorations laid on top"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
