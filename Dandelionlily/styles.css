@@ -1,0 +1,22 @@
+nav a {
+  margin: 6px;
+}
+img {
+  width: 45%;
+}
+table {
+  border: 2px solid blueviolet;
+  border-collapse: collapse;
+  width: 60%;
+}
+th {
+  text-align: left;
+  background-color: violet;
+  border: 2px solid blueviolet;
+  padding: 6px;
+}
+td {
+  border: 1px solid violet;
+  border-collapse: collapse;
+  padding: 6px;
+}
