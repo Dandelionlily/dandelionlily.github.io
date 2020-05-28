@@ -1,9 +1,29 @@
 nav a {
   margin: 6px;
 }
-img {
-  width: 45%;
+
+@media (min-width: 991px) {
+  img {
+    width: 60%;
+  }
+  #marvel-costume,
+  #marvel-sweatshirt {
+    width: 100%;
+  }
 }
+@media (max-width: 991px) {
+  img {
+    width: 100%;
+  }
+  #marvel-costume,
+  #marvel-sweatshirt {
+    width: 45%;
+  }
+}
+.container img {
+  width: 100%;
+}
+
 table {
   border: 2px solid blueviolet;
   border-collapse: collapse;
@@ -19,4 +39,10 @@ td {
   border: 1px solid violet;
   border-collapse: collapse;
   padding: 6px;
+}
+.badge {
+  margin: 10px;
+}
+.badge:hover {
+  background-color: aqua;
 }
