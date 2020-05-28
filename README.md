@@ -15,27 +15,39 @@ All four pages are styled by styles.css, which is automatically compiled from st
 
 
 Requirements:
+
   At least 4 different .html pages (index.html, sculpey.html, amigurumi.html, costumes.html)
+  
   It should be possible to navigate between all pages in the website following hyperlinks (Table of Contents on index.html; navigation bar on other pages)
+  
   At least one list (Table of Contents in index.html)
+  
   At least one table (Baby-safe Substitutions table in amigurumi.html
+  
   At least one image (sculpey.html, amigurumi.html, costumes.html)
+  
   At least one stylesheet (styles.css)
+  
   Stylesheet contains at least 5 different CSS properties (text-align, margin, width, border, border-collapse, ...)
+  
   Use the #id selector at least once (#marvel-costume, #marvel-sweatshirt)
+  
   Use the .class selector at least once (.favorite-button, .like-button)
-  At least 5 different types of CSS selectors
-    element selector (h1)
-    multiple element selector (#marvel-costume, #marvel-sweatshirt)
-    descendent selector (table th)
-    child selector (nav > a)
+  
+  At least 5 different types of CSS selectors: 
+    element selector (h1), 
+    multiple element selector (#marvel-costume, #marvel-sweatshirt), 
+    descendent selector (table th), 
+    child selector (nav > a), 
     pseudoclass selector (.badge:hover)
+    
   At least one responsive @media query for screen size (@media (min-width: 991px))
-  Use Bootstrap 4 (on costumes.html)
-    At least one Bootstrap component (class="badge")
-    At least two Bootstrap columns (class="col-sm", class="col-lg")
-  Use Sass
-    At least one variable ($wide-screen)
-    At least one nesting (table { th {}})
-    At least one inheritance (.like-button {@extend %message-button;})
+  
+  Use Bootstrap 4 (on costumes.html), 
+    at least one Bootstrap component (class="badge"), 
+    at least two Bootstrap columns (class="col-sm", class="col-lg")
+    
+  Use Sass for at least one variable ($wide-screen), 
+    at least one nesting (table { th {}}), 
+    at least one inheritance (.like-button {@extend %message-button;})
   
