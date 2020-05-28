@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 nav a {
   margin: 6px;
 }
@@ -6,8 +10,9 @@ nav a {
   img {
     width: 60%;
   }
+
   #marvel-costume,
-  #marvel-sweatshirt {
+#marvel-sweatshirt {
     width: 100%;
   }
 }
@@ -15,8 +20,9 @@ nav a {
   img {
     width: 100%;
   }
+
   #marvel-costume,
-  #marvel-sweatshirt {
+#marvel-sweatshirt {
     width: 45%;
   }
 }
@@ -29,20 +35,41 @@ table {
   border-collapse: collapse;
   width: 60%;
 }
-th {
+table th {
   text-align: left;
   background-color: violet;
   border: 2px solid blueviolet;
   padding: 6px;
 }
-td {
+table td {
   border: 1px solid violet;
   border-collapse: collapse;
   padding: 6px;
 }
+
 .badge {
   margin: 10px;
 }
+
 .badge:hover {
   background-color: aqua;
 }
+
+.favorite-button, .like-button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 12px;
+  display: inline;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.like-button {
+  background-color: cadetblue;
+}
+
+.favorite-button {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */
