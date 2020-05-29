@@ -2,6 +2,12 @@
 <head>
   <title>Carol's Sculpey Creations</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,21 +18,33 @@
     <a href="costumes.html"> Costumes </a>
   </nav>
   <h1>Sculpey</h1>
-  <h3>Wizard</h3>
-  <img
-    src="images/sculpey/wizard.jpg"
-    alt="clay figurine of a wizard holding a marble"
-  />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <h3>Wizard</h3>
+        <img
+          src="images/sculpey/wizard.jpg"
+          alt="clay figurine of a wizard holding a marble"
+        />
+        <button type="button" class="favorite-button">Favorite</button>
+        <button type="button" class="like-button">Like</button>
+      </div>
 
-  <h3>
-    <a
-      href="https://www.amazon.com/Little-Prince-75th-Anniversary-History/dp/1328479757"
-      target="_blank"
-      >Saint-Exupéry's <i>The Little Prince</i></a
-    >
-  </h3>
-  <img
-    src="images/sculpey/little_prince.jpg"
-    alt="clay figurine of a little boy wearing a large coat"
-  />
+      <div class="col-lg">
+        <h3>
+          <a
+            href="https://www.amazon.com/Little-Prince-75th-Anniversary-History/dp/1328479757"
+            target="_blank"
+            >Saint-Exupéry's <i>The Little Prince</i></a
+          >
+        </h3>
+        <img
+          src="images/sculpey/little_prince.jpg"
+          alt="clay figurine of a little boy wearing a large coat"
+        />
+        <button type="button" class="favorite-button">Favorite</button>
+        <button type="button" class="like-button">Like</button>
+      </div>
+    </div>
+  </div>
 </body>

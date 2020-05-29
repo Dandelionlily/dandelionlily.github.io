@@ -2,6 +2,12 @@
 <head>
   <title>Carol's Amigurumi Creations</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,57 +19,67 @@
   </nav>
   <h1>Amigurumi</h1>
 
-  <div>
-    <h3>Yoda</h3>
-    <img
-      src="images/amigurumi/Yoda.jpg"
-      alt="2-inch crochet doll of Yoda from Star Wars"
-    />
-    <button type="button" class="favorite-button">Favorite</button>
-    <button type="button" class="like-button">Like</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <h3>Yoda</h3>
+        <img
+          src="images/amigurumi/Yoda.jpg"
+          alt="2-inch crochet doll of Yoda from Star Wars"
+        />
+        <button type="button" class="favorite-button">Favorite</button>
+        <button type="button" class="like-button">Like</button>
+      </div>
+
+      <div class="col-sm">
+        <h3>Captain Marvel and Ms Marvel</h3>
+        <img
+          src="images/amigurumi/marvels.jpg"
+          alt="two 4-inch crochet dolls of female superheroes"
+        />
+        <button type="button" class="favorite-button">Favorite</button>
+        <button type="button" class="like-button">Like</button>
+      </div>
+
+      <div class="col-sm">
+        <h3>Bumblebee from <i>DC's Superhero Girls</i></h3>
+        <img
+          src="images/amigurumi/bumblebee.jpg"
+          alt="4-inch crochet doll of a black female superhero with yellow wings"
+        />
+        <button type="button" class="favorite-button">Favorite</button>
+        <button type="button" class="like-button">Like</button>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h3>Captain Marvel and Ms Marvel</h3>
-    <img
-      src="images/amigurumi/marvels.jpg"
-      alt="two 4-inch crochet dolls of female superheroes"
-    />
-    <button type="button" class="favorite-button">Favorite</button>
-    <button type="button" class="like-button">Like</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <h2>Baby-safe Substitutions</h2>
+        <p>
+          Not all crochet dolls are safe for children under 3 due to choking
+          hazards. Here are some common dangers and the baby-safe options.
+        </p>
+        <table>
+          <tr>
+            <th>Hazard</th>
+            <th>Solution</th>
+          </tr>
+          <tr>
+            <td>safety eyes</td>
+            <td>felt or embroidered eyes</td>
+          </tr>
+          <tr>
+            <td>buttons</td>
+            <td>crochet button</td>
+          </tr>
+          <tr>
+            <td>removable hat</td>
+            <td>hat stitched to the head</td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </div>
-
-  <div>
-    <h3>Bumblebee from <i>DC's Superhero Girls</i></h3>
-    <img
-      src="images/amigurumi/bumblebee.jpg"
-      alt="4-inch crochet doll of a black female superhero with yellow wings"
-    />
-    <button type="button" class="favorite-button">Favorite</button>
-    <button type="button" class="like-button">Like</button>
-  </div>
-
-  <h2>Baby-safe Substitutions</h2>
-  <p>
-    Not all crochet dolls are safe for children under 3 due to choking hazards.
-    Here are some common dangers and the baby-safe options.
-  </p>
-  <table>
-    <tr>
-      <th>Hazard</th>
-      <th>Solution</th>
-    </tr>
-    <tr>
-      <td>safety eyes</td>
-      <td>felt or embroidered eyes</td>
-    </tr>
-    <tr>
-      <td>buttons</td>
-      <td>crochet button</td>
-    </tr>
-    <tr>
-      <td>removable hat</td>
-      <td>hat stitched to the head</td>
-    </tr>
-  </table>
 </body>
