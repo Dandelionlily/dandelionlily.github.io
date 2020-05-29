@@ -1,16 +1,18 @@
 # dandelionlily.github.io
 
-Carol's crafts is a simple website of photographs of crafting projects. It contains four html files: index.html (home/about), sculpey.html (photos of sculpey figurines), amigurumi.html (photos of crocheted figures), and costumes.html (photos of Halloween costumes).
+Carol's crafts is a simple website to show photographs of Carol's crafting projects. It contains four html files.
 
-The index.html page has an unordered list of navigation links to the other pages. (All other pages have a navigation bar instead.) It also contains a brief about-the-author.
+The index.html page has an unordered list of navigation links to the other pages. It also contains a brief about-the-author.
+
+All other pages have a navigation bar at the top and display photos with "like" and "favorite" buttons underneath. These buttons change colors on rollover and click.
 
 The sculpey.html page contains photos of sculpey figurines and links to external websites.
 
-The amigurumi.html page contains photos of crocheted dolls with "Like" and "Favorite" buttons. It also contains a table of changes that need to be made for the dolls to be baby-safe.
+The amigurumi.html page contains photos of crocheted dolls. It also contains a table of changes that need to be made for the dolls to be baby-safe.
 
-The costumes.html page uses Bootstrap to put the images of Carol's Halloween costumes into a grid layout. It also sizes the Captain Marvel images based on an @media query. It also uses a Bootstrap badge ("new") that changes color on rollover.
+The costumes.html page sizes the Captain Marvel images based on an @media query. It also uses a Bootstrap badge ("new").
 
-All four pages are styled by styles.css, which is automatically compiled from styles.scss.
+All four pages are styled by Bootstrap and by styles.css, which is automatically compiled from styles.scss.
 
 
 
@@ -39,11 +41,11 @@ Requirements:
     multiple element selector (#marvel-costume, #marvel-sweatshirt), 
     descendent selector (table th), 
     child selector (nav > a), 
-    pseudoclass selector (.badge:hover)
+    pseudoclass selector (%message-button:hover)
     
   At least one responsive @media query for screen size (@media (min-width: 991px))
   
-  Use Bootstrap 4 (on costumes.html), 
+  Use Bootstrap 4:  
     at least one Bootstrap component (class="badge"), 
     at least two Bootstrap columns (class="col-sm", class="col-lg")
     
